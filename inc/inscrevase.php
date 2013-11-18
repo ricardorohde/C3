@@ -78,7 +78,11 @@
 	<div class="row single">
 		<input type="hidden" name="inputAssunto" id="inputAssunto" class="hidden" value="Inscrição Site C3 - <?php echo $nomeDoCurso ?>" />
 		<input type="hidden" name="inputSucesso" id="inputSucesso" class="hidden" <?php echo('value="../sucesso.php?curso='.$_GET['curso'].'"') ?> />
-		
+		<div class="captcha">
+			<label>Digite o código abaixo<span> (letras minúsculas)</span></label>
+			<img src="inc/captcha.php?l=125&a=39&tf=20&ql=4	">
+			<input type="text" name="palavra"  />
+		</div>
 		<input type="submit" value="Enviar" class="inputSubmit" />
 		<span class="loadingForm">Enviando</span>
 	</div>
