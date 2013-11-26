@@ -46,13 +46,7 @@ include ('inc/header.php');
 		</div>
 		<div class="master column">
 			
-            <div class="slider-wrapper theme-default">
-                <div id="slider" class="nivoSlider">
-                    <img src="img/banner-desconto.png" data-thumb="img/banner-desconto.png" alt="" />
-                    <a href="img/entrevista.jpg" target="_blank"><img src="img/banner-professor.png" data-thumb="img/banner-professor.png" alt="" /></a>
-                    <img src="img/banner-metodos.png" data-thumb="img/banner-metodos.png" alt="" />
-                </div>
-            </div>
+            <a id="aId"><img id="id"></a>
         
         <ul>
 				<li class="title">PROGRAMAÇÃO DE CURSOS / NOTÍCIAS</li>

@@ -20,7 +20,7 @@
 		})
 	})
 	</script>
-    <script type="text/javascript" src="../nivo/jquery-1.9.0.min.js"></script>
+    <!-- script type="text/javascript" src="../nivo/jquery-1.9.0.min.js"></script>
     <script type="text/javascript" src="../nivo/jquery.nivo.slider.js"></script>
     <script type="text/javascript">
     $(window).load(function() {
@@ -33,6 +33,6 @@
 			randomStart: false,             // Start on a random slide
 		});
     });
-    </script>
+    </script -->
 </body>
 </html>

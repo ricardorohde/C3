@@ -7,9 +7,9 @@
 	<meta name="publisher" content="LV - Agência Interativa" />
 	<meta name="copyright" content="C3 Concursos | Centro de Capacitação para Concursos" />
 	
-    <meta name="DESCRIPTION" content="C3 | Centro de Capacitação para Concursos: cursos preparatórios que levam você de encontro ao seu futuro profissional. Prepare-se para os melhores concursos públicos!" />
+    <meta name="description" content="C3 Concursos | Centro de Capacitação para Concursos: Cursos preparatórios de qualidade comprovada que levam você de encontro ao seu futuro profissional!" />
 	
-    <meta name="KEYWORDS" content="concursos públicos, cursos preparatórios, Preparatório Concurso, Concurso BNDES, Concurso Fiscal, Oficial de Chancelaria, Carreira diplomática, Administrador Petrobrás, Fiscal da Receita, anpad curso" />
+    <meta name="keywords" content="concursos públicos, cursos preparatórios, Preparatório Concurso, Centro de Capacitação" />
 	
 	<meta name="msvalidate.01" content="971BEB2374D709A5846E5B177485E199" />
 	
@@ -22,13 +22,6 @@
 	<link href="css/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
     <link href="css/SpryValidationTextarea.css" rel="stylesheet" type="text/css" />
     <link href="css/SpryValidationSelect.css" rel="stylesheet" type="text/css" />
-    
-    
-    <!-- NIVO SLIDER -->
-    
-    <link rel="stylesheet" href="../nivo/themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="../nivo/nivo-slider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="../nivo/style.css" type="text/css" media="screen" />
     
     <link rel="shortcut icon" href="http://www.c3concursos.com.br/favicon.png" type="image/png" />
     
@@ -47,8 +40,29 @@
 	
 	</script>
     
+    <script type="text/javascript">
+	function slide1(){
+	document.getElementById('id').src="http://c3concursos.com.br/img/banner-desconto.png";
+	setTimeout("slide2()", 6000)
+	document.getElementById('aId').href="#"
+	}
+	 
+	function slide2(){
+	document.getElementById('id').src="http://c3concursos.com.br/img/banner-professor.png";
+	setTimeout("slide3()", 6000)
+	document.getElementById('aId').href="http://c3concursos.com.br/img/entrevista.jpg"
+	document.getElementById('aId').target="_blank"
+	}
+	 
+	function slide3(){
+	document.getElementById('id').src="http://c3concursos.com.br/img/banner-metodos.png";
+	setTimeout("slide1()", 6000)
+	document.getElementById('aId').href="#"
+	}
+	</script>
+    
 </head>
-<?php echo('<body class="'. $classPage .'">') ?>
+<?php echo('<body class="'. $classPage .'" onLoad="slide1()">') ?>
 <?php include ('inc/links.php'); ?>
 	<div class="container">
 		<div class="navbar">

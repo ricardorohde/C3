@@ -6437,7 +6437,7 @@ div.logo span.text2{
 .apoioHome .master form{
   background: #9f9564;
   -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
-  padding: 0 22px 22px; margin: 0;
+  padding: 0 22px 22px; margin: 20px 0px 0px 0px;
 }
 .apoioHome .master ul .title{
   color: #3b351a; font-size: 20px; font-weight: 700;

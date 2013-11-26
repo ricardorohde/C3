@@ -46,24 +46,17 @@ include ('inc/header.php');
 		</div>
 		<div class="master column">
         
-        <div class="slider-wrapper theme-default">
-                <div id="slider" class="nivoSlider">
-                    <img src="img/banner-desconto.png" data-thumb="img/banner-desconto.png" alt="" />
-                    <a href="img/entrevista.jpg" target="_blank"><img src="img/banner-professor.png" data-thumb="img/banner-professor.png" alt="" /></a>
-                    <img src="img/banner-metodos.png" data-thumb="img/banner-metodos.png" alt="" />
-                </div>
-            </div>
+            <a id="aId"><img name="id" id="id"></a>
             
-            
-			<ul>
+		  <ul>
 				<li class="title">PROGRAMAÇÃO DE CURSOS / NOTÍCIAS</li>
-				<li><a <?php echo('href="'.$linkCarreiraDiplomatica.'"') ?> title=""><span class="icon-arrow-c3"></span>Preparatório CARREIRA DIPLOMÁTICA – (2ª ,4ª, 6ª) início 22/11/13</a></li>
+				<li><a <?php echo('href="'.$linkCarreiraDiplomatica.'"') ?> title=""><span class="icon-arrow-c3"></span>Preparatório CARREIRA DIPLOMÁTICA – (2ª ,4ª, 6ª) início 12/03/14</a></li>
 				<li><a <?php echo('href="'.$linkCarreiraDiplomatica.'"') ?> title=""><span class="icon-arrow-c3"></span>Preparatório  CARREIRA DIPLOMÁTICA – (sábados) início 15/02/14</a></li>
 				<li><a <?php echo('href="'.$linkOficialdaChancelaria.'"') ?> title=""><span class="icon-arrow-c3"></span>Preparatório OFICIAL DE CHANCELARIA – (sábados) início 25/01/14</a></li>
-                <li><a <?php echo('href="'.$linkPetrobrasAdministracao.'"') ?> title=""><span class="icon-arrow-c3"></span>Preparatório  PETROBRÁS– (sábados) início 18/01/14</a></li>
-				<li><a <?php echo('href="'.$linkBNDESAdministracao.'"') ?> title=""><span class="icon-arrow-c3"></span>Preparatório  BNDES – (sábados) início 18/01/14</a></li>
-                <li><a <?php echo('href="'.$linkFiscalICMS.'"') ?> title=""><span class="icon-arrow-c3"></span>Preparatório Fiscal (INTENSIVO) - (2ª ,3ª, 4ª, 5ª, 6ª a noite) inicio 18/11/13</a></li>
-				<li><a <?php echo('href="'.$linkTesteAnpad.'"') ?> title=""><span class="icon-arrow-c3"></span>Preparatório  ANPAD – (sábados) início 30/11/13</a></li>
+                <li><a <?php echo('href="'.$linkPetrobrasAdministracao.'"') ?> title=""><span class="icon-arrow-c3"></span>Preparatório  PETROBRÁS– (sábados) início 01/02/14</a></li>
+				<li><a <?php echo('href="'.$linkBNDESAdministracao.'"') ?> title=""><span class="icon-arrow-c3"></span>Preparatório  BNDES – (sábados) início 01/02/14</a></li>
+                <li><a <?php echo('href="'.$linkFiscalICMS.'"') ?> title=""><span class="icon-arrow-c3"></span>Preparatório Fiscal (sábados) inicio 28/06/14</a></li>
+				<li><a <?php echo('href="'.$linkTesteAnpad.'"') ?> title=""><span class="icon-arrow-c3"></span>Preparatório  ANPAD – (3ª e 5ª) início 20/03/14</a></li>
 			</ul>
 		</div>
 	</div>
